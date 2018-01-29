@@ -3,7 +3,7 @@ body {
 	width: 800px;
 	/*background: #222;*/
 	background: #333 url(https://images.unsplash.com/photo-1504333638930-c8787321eee0?auto=format&fit=crop&w=1350&q=80);
-	background-repeat: no-repeat;
+	background-attachment: fixed;
 	font-family: 'Open Sans', cursive;
 }
 a {
