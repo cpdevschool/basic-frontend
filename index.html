@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+        .container {
+          position: relative;
+        }
+        @media screen and (min-width:600px) {
+          nav {
+            float: left;
+            width: 25%;
+            border: 1px solid blue;
+          }
+          section {
+            margin-left: 25%;
+            border: 1px solid blue;
+          }
+        }
+        @media screen and (max-width:599px) {
+          nav li {
+            display: inline;
+            border: 1px solid blue;
+          }
+        }
+        footer {
+          position: fixed;
+          bottom: 0;
+          left: 0;
+          height: 70px;
+          background-color: white;
+          width: 100%;
+          border: 1px solid brown;
+        }
+        body {
+          margin-bottom: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Profile</li>
+                <li>List</li>
+                <li>About us</li>
+            </ul>
+        </nav>
+        <section>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+        </section>
+        <section>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <section>
+            <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h1>
+        </section>
+        <footer>
+            If you use a fixed header or footer, make sure there is room for it! I put a margin-bottom on the body.
+        </footer>
+    </div>
+</body>
+</html>
