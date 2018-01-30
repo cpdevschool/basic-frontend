@@ -1,0 +1,42 @@
+body {
+	margin: auto;
+	width: 800px;
+	background-color: pink;
+}
+
+.container {
+	background-color: white;
+	overflow: hidden;
+}
+
+header {
+	clear: both;
+}
+
+.logo {
+	float: left;
+}
+.menu {
+	float: right;
+	margin: 21px;
+}
+.banner img {
+	width: 100%;
+}
+.article img {
+	width: 300px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+.article {
+	clear: both;
+}
+footer {
+    clear: both;
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

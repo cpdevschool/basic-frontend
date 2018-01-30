@@ -1,0 +1,19 @@
+h1 {
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	color: red;
+}
+.container {
+	width: 80%;
+	height: 200px;
+	margin: auto;
+	overflow: auto;
+	padding: 20px;
+
+	background-color: lavender;
+}
+
+.footer {
+	text-align: center;
+	background-color: mistyrose;
+}
